@@ -16,7 +16,7 @@ How to install pfsense, OpenWRT, TrueNAS on proxmox
 3. Select Create VM in the top right corner.
 + [How to Install pfSense on Proxmox in 2023 - WunderTech](https://www.wundertech.net/how-to-install-pfsense-on-proxmox/)
 
-efore we look at how to install pfSense on Proxmox, ensure that you have a NIC installed in your Proxmox server as we’ll have to use this to pass it through to our pfSense virtual machine.
+Before we look at how to install pfSense on Proxmox, ensure that you have a NIC installed in your Proxmox server as we’ll have to use this to pass it through to our pfSense virtual machine.
 
 
 4. Give the VM a name, then check off start at boot. Select next to proceed.
