@@ -4,8 +4,10 @@ How to install pfsense, OpenWRT, TrueNAS on proxmox
 
 + [How to Install pfSense on Proxmox in 2023 - WunderTech](https://www.wundertech.net/how-to-install-pfsense-on-proxmox/)
 + [Run an OpenWRT VM on Proxmox VE](https://i12bretro.github.io/tutorials/0405.html)
++ [Proxmox: How to Delete VM, VM Disks & VM Snapshots - phoenixNAP KB](https://phoenixnap.com/kb/proxmox-delete-vm)
++ [Network Configuration - Proxmox VE](https://pve.proxmox.com/wiki/Network_Configuration)
 
-
+  
 ## download image
 
 1. Download the latest AMD64 DVD Image (ISO) installer from the pfSense website.
@@ -26,6 +28,7 @@ Before we look at how to install pfSense on Proxmox, ensure that you have a NIC 
 
 ## Proxmox 
 
+
 add the new network card to proxmox usage
 and use embedded cards to pfsense directly from PCI
 
@@ -42,6 +45,7 @@ and use embedded cards to pfsense directly from PCI
 + All functions
   
 ![image](https://github.com/tom-sapletta-com/proxmox-pfsense-OpenWRT-TrueNas/assets/5669657/ad156e0b-9903-4030-ac1e-df37bbaa9a67)
+
 
 
 ## Tutorials:
