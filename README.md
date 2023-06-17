@@ -48,6 +48,14 @@ and use embedded cards to pfsense directly from PCI
 
 
 
+## Proxmox virtualized Net
+
+[pfSense® software Configuration Recipes — Virtualizing with Proxmox® VE - pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/recipes/virtualize-proxmox-ve.html)
+
+
+
+
+
 ## Tutorials:
 
 [How to Virtualize Your Home Router / Firewall Using pfSense - YouTube](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
