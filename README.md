@@ -22,19 +22,26 @@ Before we look at how to install pfSense on Proxmox, ensure that you have a NIC 
 4. Give the VM a name, then check off start at boot. Select next to proceed.
 5. Select the pfSense ISO image and then select next.
 6. In the network section, select no network device, then select next.
-7. 
+
 
 ## Proxmox 
 
 add the new network card to proxmox usage
 and use embedded cards to pfsense directly from PCI
 
-### TODO:
-
 + change the physical network device in vmbr0 to the external USB card
 
 ![image](https://github.com/tom-sapletta-com/proxmox-pfsense-OpenWRT-TrueNas/assets/5669657/c10c2d7b-3614-4bef-b09a-2b128bdcf104)
 
+
++ Add PCI NET Devices Before start pfsense
+
+![image](https://github.com/tom-sapletta-com/proxmox-pfsense-OpenWRT-TrueNas/assets/5669657/ece5a7d9-c83b-489b-9790-ed28221386f6)
+
+
++ All functions
+  
+![image](https://github.com/tom-sapletta-com/proxmox-pfsense-OpenWRT-TrueNas/assets/5669657/ad156e0b-9903-4030-ac1e-df37bbaa9a67)
 
 
 ## Tutorials:
