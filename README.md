@@ -19,7 +19,7 @@ How to install pfsense, OpenWRT, TrueNAS on proxmox
 + [How to Install pfSense on Proxmox in 2023 - WunderTech](https://www.wundertech.net/how-to-install-pfsense-on-proxmox/)
 
 Before we look at how to install pfSense on Proxmox, ensure that you have a NIC installed in your Proxmox server as we’ll have to use this to pass it through to our pfSense virtual machine.
-
++ [How to Pass-through PCIe NICs with Proxmox VE on Intel and AMD](https://www.servethehome.com/how-to-pass-through-pcie-nics-with-proxmox-ve-on-intel-and-amd/)
 
 4. Give the VM a name, then check off start at boot. Select next to proceed.
 5. Select the pfSense ISO image and then select next.
