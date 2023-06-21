@@ -30,6 +30,29 @@ Before we look at how to install pfSense on Proxmox, ensure that you have a NIC 
 
 + [pfSense® software Configuration Recipes — Virtualizing with Proxmox® VE | pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/recipes/virtualize-proxmox-ve.html)
 
+
+## Virtualisation
+
+```bash
+qm monitor <vmid>       connect to vm control monitor
+qm start <vmid>         start vm
+qm reboot <vmid>        reboot vm (shutdown, start)
+qm shutdown <vmid>      gracefully stop vm (send poweroff)
+qm stop <vmid>          kill vm (immediate stop)
+qm reset <vmid>         reset vm (stop, start)
+qm suspend <vmid>       suspend vm
+qm resume <vmid>        resume vm
+qm destroy <vmid>       destroy vm (delete all files)
+
+qm cdrom <vmid> [<device>] <path>  set cdrom path. <device is ide2 by default>
+qm cdrom <vmid> [<device>] eject   eject cdrom
+
+qm unlink <vmid> <file>  delete unused disk images
+qm vncproxy <vmid> <ticket>  open vnc proxy
+qm list                 list all virtual machines
+```
+
+
 ### BIOS
 
 When creating the VM:
@@ -90,6 +113,7 @@ and use embedded cards to pfsense directly from PCI
 ## TEST COnfig
 
 + [Troubleshooting — Troubleshooting Network Connectivity | pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/troubleshooting/connectivity.html)
+
 
 
 ## Tutorials:
