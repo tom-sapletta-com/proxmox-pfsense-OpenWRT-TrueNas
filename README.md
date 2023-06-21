@@ -116,16 +116,19 @@ and use embedded cards to pfsense directly from PCI
 > 
 > For those of you who use `/etc/network/interfaces` to configure network interfaces, if you modify `/etc/network/interfaces`, you need to reload it so that the new configuration can take effect.
 > 
-> (adsbygoogle = window.adsbygoogle || \[\]).push({});
-> 
-> Here is how you can reload `/etc/network/interfaces`.
-> 
-> $ sudo service networking restart
-> 
-> **Note:** If Network Manager is installed and enabled on your system, you must not use `/etc/network/interfaces` to configure networking, and any change made in `/etc/network/interfaces` will be ignored by Network Manager. You need to use Network Manager to configure your network interfaces. In that case, after network settings are modified, you can restart Network manager as follows.
-> 
-> $ sudo service network-manager restart
+ (adsbygoogle = window.adsbygoogle || \[\]).push({});
+ 
+Here is how you can reload `/etc/network/interfaces`.
+ 
+```
+sudo service networking restart
+```
 
+**Note:** If Network Manager is installed and enabled on your system, you must not use `/etc/network/interfaces` to configure networking, and any change made in `/etc/network/interfaces` will be ignored by Network Manager. You need to use Network Manager to configure your network interfaces. In that case, after network settings are modified, you can restart Network manager as follows.
+
+```
+sudo service network-manager restart
+```
 
 
 ## [Subnet Cheat Sheet – 24 Subnet Mask, 30, 26, 27, 29, and other IP Address CIDR Network References](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
