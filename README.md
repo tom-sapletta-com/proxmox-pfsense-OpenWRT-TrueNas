@@ -87,7 +87,11 @@ and use embedded cards to pfsense directly from PCI
 > - Type `y` and press `Enter` to complete the interface assignment
 
 
+## TEST COnfig
+
++ [Troubleshooting — Troubleshooting Network Connectivity | pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/troubleshooting/connectivity.html)
+
 
 ## Tutorials:
 
-[How to Virtualize Your Home Router / Firewall Using pfSense - YouTube](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
++ [How to Virtualize Your Home Router / Firewall Using pfSense - YouTube](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
