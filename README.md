@@ -28,6 +28,22 @@ Before we look at how to install pfSense on Proxmox, ensure that you have a NIC 
 
 ## Proxmox 
 
++ [pfSense® software Configuration Recipes — Virtualizing with Proxmox® VE | pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/recipes/virtualize-proxmox-ve.html)
+
+### BIOS
+
+When creating the VM:
++ Set Machine to q35
++ Set BIOS to OVMF (UEFI)
+On the first boot, go into the boot settings and disable secure boot:
+
++ Hit Esc while the boot splash screen is visible
++ Select Device Manager
++ Select Secure Boot Configuration
++ Uncheck Attempt Secure Boot
++ Press F10 to save
++ Press Esc to exit
+  
 
 add the new network card to proxmox usage
 and use embedded cards to pfsense directly from PCI
