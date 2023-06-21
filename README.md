@@ -44,9 +44,10 @@ On the first boot, go into the boot settings and disable secure boot:
 + Press F10 to save
 + Press Esc to exit
   
-
 add the new network card to proxmox usage
 and use embedded cards to pfsense directly from PCI
+
+
 
 + change the physical network device in vmbr0 to the external USB card
 
@@ -69,6 +70,21 @@ and use embedded cards to pfsense directly from PCI
 [pfSense® software Configuration Recipes — Virtualizing with Proxmox® VE - pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/recipes/virtualize-proxmox-ve.html)
 
 
+# pfsense Installation
+
+### CONFIG
+
+> After the virtual machine reboots, the console will stop at an interfaces assignment prompt.
+> 
+> - Type `n` and press `Enter` to skip VLAN configuration
+>     
+> - Enter `vtnet0` for WAN
+>     
+> - Enter `vtnet1` for LAN
+>     
+> - Press `Enter` if prompted for additional interfaces
+>     
+> - Type `y` and press `Enter` to complete the interface assignment
 
 
 
