@@ -6,7 +6,7 @@ How to install pfsense, OpenWRT, TrueNAS on proxmox
 + [Run an OpenWRT VM on Proxmox VE](https://i12bretro.github.io/tutorials/0405.html)
 + [Proxmox: How to Delete VM, VM Disks & VM Snapshots - phoenixNAP KB](https://phoenixnap.com/kb/proxmox-delete-vm)
 + [Network Configuration - Proxmox VE](https://pve.proxmox.com/wiki/Network_Configuration)
-
++ [How to Configure a pfSense Network Bridge on a Dedicated Server – Articles](https://support.us.ovhcloud.com/hc/en-us/articles/6270170579347-How-to-Configure-a-pfSense-Network-Bridge-on-a-Dedicated-Server)
   
 ## download image
 
