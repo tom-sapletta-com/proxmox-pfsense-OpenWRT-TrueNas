@@ -119,3 +119,4 @@ and use embedded cards to pfsense directly from PCI
 ## Tutorials:
 
 + [How to Virtualize Your Home Router / Firewall Using pfSense - YouTube](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
++ [Building a budget 10gbe router/firewall with pfSense from scratch](https://drakeor.com/2021/04/14/setting-up-pfsense-as-a-router/)
