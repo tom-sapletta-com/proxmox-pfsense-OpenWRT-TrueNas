@@ -71,7 +71,6 @@ add the new network card to proxmox usage
 and use embedded cards to pfsense directly from PCI
 
 
-
 + change the physical network device in vmbr0 to the external USB card
 
 ![image](https://github.com/tom-sapletta-com/proxmox-pfsense-OpenWRT-TrueNas/assets/5669657/c10c2d7b-3614-4bef-b09a-2b128bdcf104)
@@ -109,8 +108,28 @@ and use embedded cards to pfsense directly from PCI
 >     
 > - Type `y` and press `Enter` to complete the interface assignment
 
+## Network
 
-[Subnet Cheat Sheet – 24 Subnet Mask, 30, 26, 27, 29, and other IP Address CIDR Network References](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
+[How to reload /etc/network/interfaces in Ubuntu or Debian](https://www.xmodulo.com/how-to-reload-etc-network-interfaces-in-ubuntu-debian.html)
+
+> In Ubuntu or Debian desktop, Network Manager is the default network configuration tool, whereas Ubuntu server by default uses `/etc/network/interfaces` to configure network interfaces. Of course, even on desktop, you can [disable Network Manager](https://www.xmodulo.com/disable-network-manager-linux.html), and use `/etc/network/interfaces` instead to configure your networking.
+> 
+> For those of you who use `/etc/network/interfaces` to configure network interfaces, if you modify `/etc/network/interfaces`, you need to reload it so that the new configuration can take effect.
+> 
+> (adsbygoogle = window.adsbygoogle || \[\]).push({});
+> 
+> Here is how you can reload `/etc/network/interfaces`.
+> 
+> $ sudo service networking restart
+> 
+> **Note:** If Network Manager is installed and enabled on your system, you must not use `/etc/network/interfaces` to configure networking, and any change made in `/etc/network/interfaces` will be ignored by Network Manager. You need to use Network Manager to configure your network interfaces. In that case, after network settings are modified, you can restart Network manager as follows.
+> 
+> $ sudo service network-manager restart
+
+
+
+## [Subnet Cheat Sheet – 24 Subnet Mask, 30, 26, 27, 29, and other IP Address CIDR Network References](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
+
 ![image](https://github.com/tom-sapletta-com/proxmox-pfsense-OpenWRT-TrueNas/assets/5669657/ae359060-9d05-46ee-bc87-3751a9d4d2fc)
 
 
