@@ -110,6 +110,10 @@ and use embedded cards to pfsense directly from PCI
 > - Type `y` and press `Enter` to complete the interface assignment
 
 
+[Subnet Cheat Sheet – 24 Subnet Mask, 30, 26, 27, 29, and other IP Address CIDR Network References](https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/)
+![image](https://github.com/tom-sapletta-com/proxmox-pfsense-OpenWRT-TrueNas/assets/5669657/ae359060-9d05-46ee-bc87-3751a9d4d2fc)
+
+
 ## TEST COnfig
 
 + [Troubleshooting — Troubleshooting Network Connectivity | pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/troubleshooting/connectivity.html)
