@@ -7,7 +7,8 @@ How to install pfsense, OpenWRT, TrueNAS on proxmox
 + [Proxmox: How to Delete VM, VM Disks & VM Snapshots - phoenixNAP KB](https://phoenixnap.com/kb/proxmox-delete-vm)
 + [Network Configuration - Proxmox VE](https://pve.proxmox.com/wiki/Network_Configuration)
 + [How to Configure a pfSense Network Bridge on a Dedicated Server – Articles](https://support.us.ovhcloud.com/hc/en-us/articles/6270170579347-How-to-Configure-a-pfSense-Network-Bridge-on-a-Dedicated-Server)
-  
++ [pfSense VLANs on Proxmox - Linux Included](https://linuxincluded.com/pfsense-vlans-on-proxmox/)
+
 ## download image
 
 1. Download the latest AMD64 DVD Image (ISO) installer from the pfSense website.
